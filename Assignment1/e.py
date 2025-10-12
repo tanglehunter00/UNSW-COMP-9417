@@ -40,7 +40,7 @@ for idx, a in enumerate(alphas):
     ax = axes[idx // 3, idx % 3]
     ax.plot(range(1, 1001), deltas)
     ax.set_title(f"alpha = {a}")
-    ax.grid(True, linestyle="--")
+    ax.grid(True)
 
 plt.show()
 
