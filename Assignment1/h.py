@@ -39,7 +39,6 @@ for x in range(1000):
 
 x_cd = np.arange(0, 1001)
 x_gd = np.arange(0, 1001)
-plt.figure(figsize=(9.5, 5.5))
 plt.plot(x_cd, deltas_cd, label="coordinate scheme", color="blue")
 plt.plot(x_gd, deltas_gd, label="gradient descent", color="green")
 plt.legend()
